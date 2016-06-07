@@ -1,9 +1,12 @@
+
+[![Apache license](http://img.shields.io/badge/license-APACHE2-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
 # loginitializer
 This is the small library importing Java logging APIs (SLF4j, Apache commons-logging and Log4J).
 
 # Motivation
 
-Groovy has a logging field injection with some simple annotation, as below.
+Groovy has implicit logging field injections with some simple annotation, as below.
 
 ```groovy
 @Grab(group='org.slf4j', module='slf4j-api', version='1.7.21')
